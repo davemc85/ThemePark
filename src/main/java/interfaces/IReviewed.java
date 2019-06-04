@@ -1,4 +1,4 @@
-package attractions;
+package interfaces;
 
 public interface IReviewed {
     int getRating();

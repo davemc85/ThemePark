@@ -1,6 +1,8 @@
 package attractions;
 
-public class Playground extends Attraction implements IReviewed{
+import interfaces.IReviewed;
+
+public class Playground extends Attraction implements IReviewed {
 
     private Playground playgrouund;
 

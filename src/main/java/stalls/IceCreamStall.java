@@ -4,8 +4,8 @@ public class IceCreamStall extends Stall {
 
     private IceCreamStall iceCreamStall;
 
-    public IceCreamStall(String name, String ownerName, int parkingSpot) {
-        super(name, ownerName, parkingSpot);
+    public IceCreamStall(String name, String ownerName, int parkingSpot, int rating) {
+        super(name, ownerName, parkingSpot, rating);
     }
 
     public String getName(){
@@ -18,5 +18,9 @@ public class IceCreamStall extends Stall {
 
     public int getParkingSpot(){
         return parkingSpot;
+    }
+
+    public int getRating(){
+        return rating;
     }
 }

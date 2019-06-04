@@ -4,8 +4,8 @@ public class CandyFlossStall extends Stall {
 
     private CandyFlossStall candyFlossStall;
 
-    public CandyFlossStall(String name, String ownerName, int parkingSpot) {
-        super(name, ownerName, parkingSpot);
+    public CandyFlossStall(String name, String ownerName, int parkingSpot, int rating) {
+        super(name, ownerName, parkingSpot, rating);
     }
 
     public String getName(){
@@ -18,5 +18,9 @@ public class CandyFlossStall extends Stall {
 
     public int getParkingSpot(){
         return parkingSpot;
+    }
+
+    public int getRating(){
+        return rating;
     }
 }

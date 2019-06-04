@@ -1,6 +1,8 @@
 package attractions;
 
-public class Park extends Attraction implements IReviewed{
+import interfaces.IReviewed;
+
+public class Park extends Attraction implements IReviewed {
 
     private Park park;
 

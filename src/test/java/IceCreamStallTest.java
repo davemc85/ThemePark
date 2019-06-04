@@ -11,7 +11,7 @@ public class IceCreamStallTest {
 
     @Before
     public void setUp(){
-        iceCreamStall = new IceCreamStall("Mr Frosty", "Beth", 4);
+        iceCreamStall = new IceCreamStall("Mr Frosty", "Beth", 4, 5);
     }
 
     @Test
