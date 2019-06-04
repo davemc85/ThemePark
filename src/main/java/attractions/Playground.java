@@ -1,6 +1,7 @@
 package attractions;
 
 import interfaces.IReviewed;
+import people.Visitor;
 
 public class Playground extends Attraction implements IReviewed {
 
@@ -16,6 +17,14 @@ public class Playground extends Attraction implements IReviewed {
 
     public int getRating(){
         return rating;
+    }
+
+    public boolean isAllowedTo(Visitor visitor) {
+        if (visitor.getAge() < 14) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 
