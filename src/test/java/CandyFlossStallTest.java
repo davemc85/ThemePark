@@ -1,6 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 import stalls.CandyFlossStall;
+import stalls.Stall;
 
 import static org.junit.Assert.assertEquals;
 
@@ -26,6 +27,11 @@ public class CandyFlossStallTest {
     @Test
     public void hasParkingSpot(){
         assertEquals(3, candyFlossStall.getParkingSpot());
+    }
+
+    @Test
+    public void hasRating(){
+        assertEquals(1, candyFlossStall.getRating());
     }
 
 }
