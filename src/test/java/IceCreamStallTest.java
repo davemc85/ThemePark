@@ -1,6 +1,5 @@
 import org.junit.Before;
 import org.junit.Test;
-import stalls.CandyFlossStall;
 import stalls.IceCreamStall;
 
 import static org.junit.Assert.assertEquals;
