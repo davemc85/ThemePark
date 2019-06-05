@@ -34,10 +34,10 @@ public class Rollercoaster extends Attraction implements IReviewed, ITicketed, I
     }
 
 
-    //half price for kids
+    //double price for tall people
     public double priceFor(Visitor visitor) {
-        if (visitor.getAge() < 12) {
-            return this.price / 2;
+        if (visitor.getHeight() > 200) {
+            return this.price * 2;
         } else {
             return this.price;
 
@@ -46,7 +46,7 @@ public class Rollercoaster extends Attraction implements IReviewed, ITicketed, I
 
     // only allowed if over 12 and over 4 feet
     public boolean isAllowedTo(Visitor visitor) {
-        if (visitor.getAge() > 12 && visitor.getHeight() > 120) {
+        if (visitor.getAge() > 12 && visitor.getHeight() > 145) {
             return true;
         } else {
             return false;
