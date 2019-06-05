@@ -1,6 +1,8 @@
 package stalls;
 
-public class IceCreamStall extends Stall {
+import interfaces.IReviewed;
+
+public class IceCreamStall extends Stall implements IReviewed {
 
     private IceCreamStall iceCreamStall;
 

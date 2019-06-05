@@ -1,6 +1,8 @@
 package stalls;
 
-public class CandyFlossStall extends Stall {
+import interfaces.IReviewed;
+
+public class CandyFlossStall extends Stall implements IReviewed {
 
     private CandyFlossStall candyFlossStall;
 

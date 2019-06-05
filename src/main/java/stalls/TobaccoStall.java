@@ -1,9 +1,10 @@
 package stalls;
 
+import interfaces.IReviewed;
 import interfaces.ISecurity;
 import people.Visitor;
 
-public class TobaccoStall extends Stall implements ISecurity {
+public class TobaccoStall extends Stall implements ISecurity, IReviewed {
 
     private TobaccoStall tobaccoStall;
 
